@@ -1,0 +1,68 @@
+{
+  "population": 13979592,
+  "cutoff_chosen_on_valid": 0.22999990462292674,
+  "policy_comparison": [
+    {
+      "policy": "target_nobody",
+      "share_targeted": 0.0,
+      "customers_targeted": 0.0,
+      "incremental_visits": 0.0,
+      "incremental_conversions": 0.0,
+      "cost": 0.0,
+      "incremental_value": 0.0,
+      "profit": 0.0,
+      "roi": NaN,
+      "cost_per_incremental_conversion": NaN
+    },
+    {
+      "policy": "target_everyone",
+      "share_targeted": 1.0,
+      "customers_targeted": 13979592.0,
+      "incremental_visits": 144609.04796583555,
+      "incremental_conversions": 15244.307137199734,
+      "cost": 698979.6000000001,
+      "incremental_value": 682076.8094709071,
+      "profit": -16902.790529093007,
+      "roi": -0.024182094197159696,
+      "cost_per_incremental_conversion": 45.85184447604861
+    },
+    {
+      "policy": "random_30pct",
+      "share_targeted": 0.3000000953772552,
+      "customers_targeted": 4193878.933335114,
+      "incremental_visits": 39346.88905452716,
+      "incremental_conversions": 4447.398313557074,
+      "cost": 209693.9466667557,
+      "incremental_value": 197569.37706954655,
+      "profit": -12124.569597209163,
+      "roi": -0.05782031284134993,
+      "cost_per_incremental_conversion": 47.14980127314937
+    },
+    {
+      "policy": "top_23.0pct_by_uplift",
+      "share_targeted": 0.22999986647184273,
+      "customers_targeted": 3215304.2933308408,
+      "incremental_visits": 115745.5984170914,
+      "incremental_conversions": 12528.406914378314,
+      "cost": 160765.21466654204,
+      "incremental_value": 559009.0757836782,
+      "profit": 398243.8611171362,
+      "roi": 2.4771768068308218,
+      "cost_per_incremental_conversion": 12.832055644843297
+    }
+  ],
+  "test_profit_at_valid_cutoff": 398263.0748604394,
+  "test_roi_at_valid_cutoff": 2.4772963211383354,
+  "test_profit_max_share_in_sample": 0.19000007630180415,
+  "headline_top_20pct": {
+    "share_targeted": 0.1999999046227448,
+    "pct_incremental_conversions_kept": 0.8001141684046448,
+    "pct_of_cost": 0.19999990462274475
+  },
+  "target_everyone_wasted_spend_share": 0.4239375927543806,
+  "sensitivity_cutoff_range": [
+    0.11499995231146337,
+    0.30999980924585346
+  ],
+  "sensitivity_target_everyone_negative_cells": 5
+}

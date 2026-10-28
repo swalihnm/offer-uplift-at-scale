@@ -1,0 +1,11 @@
+# Business assumptions. These are PLACEHOLDER values chosen for illustration,
+# not measured costs. Every ROI number in the README depends on them, so the
+# sensitivity grid in roi.py re-runs the decision across the values below.
+
+cost_per_treated: 0.05        # $ per customer targeted (offer or media cost)
+value_per_visit: 0.50         # $ per incremental visit
+value_per_conversion: 40.0    # $ per incremental conversion
+
+sensitivity:
+  cost_per_treated: [0.03, 0.05, 0.08]
+  value_per_conversion: [25.0, 40.0, 60.0]

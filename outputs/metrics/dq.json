@@ -1,0 +1,18 @@
+{
+  "source_rows": 13979592,
+  "bronze_rows": 13979592,
+  "bronze_matches_source": true,
+  "null_visit": 0,
+  "null_conversion": 0,
+  "treatment_share": 0.85,
+  "treatment_share_ok": true,
+  "exact_duplicate_rows_kept": 1259545,
+  "silver_rows": 13979592,
+  "silver_user_ids_unique": true,
+  "split_counts": {
+    "train": 9785716,
+    "valid": 2096940,
+    "test": 2096936
+  },
+  "split_total_matches_silver": true
+}

@@ -1,0 +1,34 @@
+{
+  "selected_model": "s_learner",
+  "comparison": {
+    "s_learner": {
+      "valid_qini_auc": 6335.083100301625,
+      "test_qini_auc": 6843.289793645181
+    },
+    "t_learner": {
+      "valid_qini_auc": 4924.0108787976305,
+      "test_qini_auc": 5228.537885243533
+    },
+    "class_transformation": {
+      "valid_qini_auc": -1658.6323617509415,
+      "test_qini_auc": -1726.8874131247119
+    },
+    "x_learner": {
+      "valid_qini_auc": 2750.480124487551,
+      "test_qini_auc": 3560.053916557219
+    }
+  },
+  "random_test_qini_auc": 19.284913794629432,
+  "test_qini_auc_selected": 6843.289793645181,
+  "overall_observed_lift_test": 0.010344296740980391,
+  "top_decile_lift": 0.06169718744630881,
+  "bottom_decile_lift": 0.0009213457963445082,
+  "top_decile_vs_average_lift_x": 5.964367514892211,
+  "pi_treated_train": 0.8504136724439121,
+  "segment_shares": {
+    "do_not_disturb": 0.07602950209257697,
+    "lost_cause": 0.38303314931881566,
+    "persuadable": 0.5000329051530423,
+    "sure_thing": 0.040904443435565034
+  }
+}

@@ -1,0 +1,14 @@
+.venv/
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/warehouse/
+data/metastore_db/
+derby.log
+metastore_db/
+spark-warehouse/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
